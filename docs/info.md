@@ -9,12 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+MotorMind is a digital circuit designed to monitor an internal combustion engine. It detects high temperature, low oil pressure, and low coolant levels. It activates warning LEDs and a buzzer for critical conditions, while generating a 3-bit diagnostic code to identify detected faults.
 
 ## How to test
 
-Explain how to use your project
-
+We test MotorMind by applying all 16 possible combinations of the four inputs using switches in Wokwi. We verify that the LEDs, buzzer, and diagnostic code activate according to the truth table. If all outputs match the expected results, the circuit is working correctly
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None
